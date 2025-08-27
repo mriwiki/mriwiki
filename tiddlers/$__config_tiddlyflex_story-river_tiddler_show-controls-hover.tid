@@ -1,0 +1,9 @@
+caption: Show Controls on Hover
+created: 20250730001512265
+description: Whether or not the tiddler controls should be only shown on hover
+modified: 20250730004209166
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/tiddlyflex/story-river/tiddler/show-controls-hover
+type: text/vnd.tiddlywiki
+
+no

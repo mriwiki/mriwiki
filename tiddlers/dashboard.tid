@@ -1,0 +1,10 @@
+created: 20250606065655810
+modified: 20250607002025025
+tags: shadcn/ui
+title: dashboard
+tmap.id: d4e6204d-deb3-4989-b29b-00691f23e10a
+type: text/vnd.tiddlywiki
+
+```bash
+npx shadcn@latest add "https://v0.dev/chat/b/b_sbFRiAVQYeG?token=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..V99Z5yvaG7_lPHCK.Qikv9YOaKbLceLlsYwSnmbHYaKzlm6mYgTUDwTcGieJw8vlyt2X4bg8vtCE.bx02YVA0GZGj0_VXrg09YA"
+```

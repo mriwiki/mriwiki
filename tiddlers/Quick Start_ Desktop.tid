@@ -1,0 +1,12 @@
+background: linear-gradient(90deg,#f0fff1, #ffffff)
+button-color: #37753e
+button-text: Download
+caption: Desktop
+icon: $:/core/images/storyview-zoomin
+link: TiddlyDesktop
+tags: [[Getting Started]]
+title: Quick Start: Desktop
+tmap.id: 9ad67637-df09-45e6-a467-9fe9528ee737
+type: text/vnd.tiddlywiki
+
+Download the official desktop application for macOS, Windows and Linux

@@ -1,0 +1,29 @@
+created: 20250427223854360
+modified: 20250514121550281
+tags: brain lateralView English TableOfContents
+title: Brain Lateral View
+tmap.edges: {"6a42f7e1-a9be-444b-b1e7-7c889b4d6c84":{"to":"4148ee27-950c-43e0-9bc7-2ef49708d9fe","type":"tmap:unknown"}}
+tmap.id: d6cba1cd-c83b-45bc-9922-0ebffb54aa24
+type: text/vnd.tiddlywiki
+
+[img class="tc-image" [brain-lateral-view.png]]
+
+·[[lateral-view-annotation]]·[[侧面观中文注释]]
+
+[[brain-lateral-view.png]]
+<style>
+.hover-zoom {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.hover-zoom img {
+  transition: transform 0.3s ease;
+  max-width: 100%;
+  height: auto;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.5);
+}
+<style>

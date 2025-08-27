@@ -1,0 +1,9 @@
+caption: Story-River Min-Width
+created: 20250730001512265
+description: The Minimum Width for the Story Rivers
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/story-river/min-width
+type: text/vnd.tiddlywiki
+
+300px

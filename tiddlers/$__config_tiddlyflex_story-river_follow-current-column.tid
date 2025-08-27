@@ -1,0 +1,9 @@
+caption: Follow Active Column
+created: 20250730001512265
+description: Whether or not the Active Column follows where Tiddlers are moved to
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/tiddlyflex/story-river/follow-current-column
+type: text/vnd.tiddlywiki
+
+yes

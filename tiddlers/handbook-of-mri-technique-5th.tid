@@ -1,0 +1,78 @@
+created: 20250607001423155
+creator: Neonity
+icon: 🧲
+modified: 20250607005831887
+modifier: Neonity
+page-cover: handbook-of-mri-technique-5th.png
+tags: book
+title: handbook-of-mri-technique-5th
+tmap.id: 26a134ae-a264-4ae2-be29-e9ffc89423c7
+type: text/vnd.tiddlywiki
+
+amazon link:
+
+* https://www.amazon.com/Handbook-MRI-Technique-Catherine-Westbrook/dp/1119759331
+
+<div class="book-container">
+  <div class="book-cover">
+    [img width=150 class="book-cover-image" alt="书籍封面" [handbook-of-mri-technique-5th.png]]
+  </div>
+  <div class="book-details">
+    <h2><<title>></h2>
+    <p>作者：{{!!author}}</p>
+    <p>出版社：{{!!press}}</p>
+    <p>出版日期：{{!!published-time}}</p>
+    <p>ISBN：{{!!ISBN}}</p>
+    <p>页数：{{!!pages}}</p>
+    <p>评分：{{!!stars}}</p>
+  </div>
+</div>
+
+<div class="book-description">
+  <h3>内容简介</h3>
+  <div class="book-summary">{{!!book-summary}}</div>
+</div>
+
+<div class="book-notes">
+  <h3>读书笔记</h3>
+  <div class="book-notes-content">{{!!book-notes-content}}</div>
+</div>
+
+<style>
+.book-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-cover-image {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-description, .book-notes {
+  margin-top: 20px;
+}
+
+.book-summary, .book-notes-content {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+</style>

@@ -1,0 +1,9 @@
+caption: Box-Shadow spread for Tiddlers
+created: 20250730001512265
+description: The Box-Shadow spread for Tiddlers in the Story Rivers
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/story-river/tiddler/box-shadow-spread
+type: text/vnd.tiddlywiki
+
+4px

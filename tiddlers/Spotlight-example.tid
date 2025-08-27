@@ -1,0 +1,24 @@
+created: 20250512220607360
+creator: Neonity
+icon: 🧠
+modified: 20250607005850516
+modifier: Neonity
+page-cover: brain-sectional-anatomy-annotation.jpeg
+tags: $:/tags/plugin/example TableOfContents project
+title: Spotlight-example
+tmap.id: 4148ee27-950c-43e0-9bc7-2ef49708d9fe
+type: text/vnd.tiddlywiki
+
+!! 点击以下图片可以放大并轮播 >>
+<$set name=imgs filter="[tag[img]]">
+
+<$list filter="[enlist<imgs>]" variable="img">
+<$button class="tc-btn-invisible" tag="div" actions="""
+<$action-spotlight
+	$images=<<imgs>>
+	$start=<<img>>
+/>""">
+<$image source=<<img>> />
+</$button>
+</$list>
+</$set> 

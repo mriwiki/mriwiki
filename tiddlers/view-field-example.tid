@@ -1,0 +1,10 @@
+created: 20250514061402631
+modified: 20250514064701468
+tags: 
+title: view-field-example
+tmap.id: 070d91c9-e135-46b5-be53-0134f167c93e
+type: text/vnd.tiddlywiki
+
+<$view field="created" format="date" template="DDD DDth MMM YYYY"/>
+
+<$view field="author" />

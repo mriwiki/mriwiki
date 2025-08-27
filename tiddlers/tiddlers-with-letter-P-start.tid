@@ -1,0 +1,12 @@
+created: 20250514130622630
+modified: 20250514130723563
+tags: 
+title: tiddlers-with-letter-P-start
+tmap.id: 2c66a4fe-86bf-480c-b3ac-88571e146ae9
+type: text/vnd.tiddlywiki
+
+<ol>
+<$list filter="[prefix[P]]">
+<li><<currentTiddler>></li>
+</$list>
+</ol>

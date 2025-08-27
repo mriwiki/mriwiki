@@ -1,0 +1,74 @@
+created: 20250514005921898
+modified: 20250514053847068
+tags: 
+title: BookNoteTemplate
+tmap.id: 8aa8f2ce-7372-4a51-8a7b-859a89c56811
+type: text/vnd.tiddlywiki
+
+title: 读书卡片模板
+tags: $:/tags/BookNote
+type: text/vnd.tiddlywiki
+
+<div class="book-container">
+  <div class="book-cover">
+    <img src="" width="150" class="book-cover-image" alt="书籍封面">
+  </div>
+  <div class="book-details">
+    <h2><<title>></h2>
+    <p><strong>作者:</strong> <span class="book-author"></span></p>
+    <p><strong>出版社:</strong> <span class="book-publisher"></span></p>
+    <p><strong>出版日期:</strong> <span class="book-date"></span></p>
+    <p><strong>ISBN:</strong> <span class="book-isbn"></span></p>
+    <p><strong>页数:</strong> <span class="book-pages"></span></p>
+    <p><strong>评分:</strong> <span class="book-rating"></span>/5</p>
+  </div>
+</div>
+
+<div class="book-description">
+  <h3>内容简介</h3>
+  <div class="book-summary"></div>
+</div>
+
+<div class="book-notes">
+  <h3>读书笔记</h3>
+  <div class="book-notes-content"></div>
+</div>
+
+<style>
+.book-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-cover-image {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-description, .book-notes {
+  margin-top: 20px;
+}
+
+.book-summary, .book-notes-content {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+</style>

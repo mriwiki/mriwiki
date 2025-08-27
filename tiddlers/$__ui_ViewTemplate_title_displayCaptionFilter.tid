@@ -1,0 +1,8 @@
+created: 20250511235238969
+list-before: $:/config/ViewTemplateTitleFilters/default
+modified: 20250511235516298
+tags: $:/tags/ViewTemplateTitleFilter
+title: $:/ui/ViewTemplate/title/displayCaptionFilter
+type: text/vnd.tiddlywiki
+
+[<currentTiddler>has[caption]then[$:/ui/ViewTemplate/title/displayCaption]]

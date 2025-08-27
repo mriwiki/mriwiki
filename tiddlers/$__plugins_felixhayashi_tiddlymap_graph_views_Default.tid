@@ -1,0 +1,8 @@
+config.neighbourhood_scope: 
+config.physics_mode: false
+config.raster: 
+created: 20250514072424875
+isview: true
+modified: 20250514105358967
+title: $:/plugins/felixhayashi/tiddlymap/graph/views/Default
+type: text/vnd.tiddlywiki

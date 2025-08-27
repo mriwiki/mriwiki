@@ -1,0 +1,14 @@
+created: 20250514123616720
+modified: 20250514233114015
+title: 额叶
+tmap.id: 59265c62-bed3-4c54-ac9d-68b16938a84a
+type: text/vnd.tiddlywiki
+
+<div style="display:flex gap:10px">
+	<div style="width: 45%">
+			<<list-links filter:"[tag[额叶]sort[Caption]]">>
+	</div>
+	<div>
+			[img width=250 [frontal-lobule.png]]
+	</div>
+</div>

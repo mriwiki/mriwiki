@@ -1,0 +1,156 @@
+/* 复古牛皮纸风格 */
+.tc-tiddler-frame {
+    background-color: #f5e7c1; /* 基础牛皮纸色 */
+    background-image: linear-gradient(to bottom, 
+        rgba(210, 180, 140, 0.3) 0%, 
+        rgba(210, 180, 140, 0) 10%, 
+        rgba(210, 180, 140, 0) 90%, 
+        rgba(210, 180, 140, 0.3) 100%), 
+    url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M11 18c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm48 25c3.866 0 7-3.134 7-7s-3.134-7-7-7-7 3.134-7 7 3.134 7 7 7zm-43-7c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm63 31c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM34 90c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zm56-76c1.657 0 3-1.343 3-3s-1.343-3-3-3-3 1.343-3 3 1.343 3 3 3zM12 86c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm28-65c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm23-11c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-6 60c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm29 22c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zM32 63c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm57-13c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-9-21c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM60 91c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM35 41c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM12 60c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2z' fill='%23d2b48c' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+    border: 1px solid #d2b48c; /* 牛皮纸边框色 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 
+                inset 0 0 10px rgba(139, 69, 19, 0.1); /* 内外阴影增强立体感 */
+    color: #5a3d2b; /* 深棕色文字 */
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, "PingFang SC", serif;
+    line-height: 1.6;
+    border-radius: 0; /* 直角更复古 */
+    position: relative;
+}
+
+/* 标题样式 */
+.tc-tiddler-title {
+    background-color: #e6d5b8; /* 稍深的牛皮纸色 */
+    background-image: linear-gradient(to bottom, 
+        rgba(210, 180, 140, 0.5) 0%, 
+        rgba(210, 180, 140, 0.2) 100%);
+    border-bottom: 1px solid #c9b18b;
+    color: #4a3526;
+    font-family: "Trajan Pro", "Times New Roman", serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+    padding: 10px 15px;
+}
+
+/* 内容区域 */
+.tc-tiddler-body {
+    padding: 15px;
+    background-color: transparent;
+    text-shadow: 0 0 1px rgba(90, 61, 43, 0.2);
+}
+
+/* 底部信息栏 */
+.tc-tiddler-info {
+    background-color: #e6d5b8;
+    background-image: linear-gradient(to bottom, 
+        rgba(210, 180, 140, 0.2) 0%, 
+        rgba(210, 180, 140, 0.5) 100%);
+    border-top: 1px solid #c9b18b;
+    color: #5a3d2b;
+    font-size: 0.85em;
+    padding: 8px 15px;
+}
+
+/* 链接样式 */
+.tc-tiddler-body a {
+    color: #8b4513; /* 鞍棕色链接 */
+    text-decoration: none;
+}
+
+.tc-tiddler-body a:hover {
+    color: #a0522d; /* 更深的棕色 */
+    text-decoration: underline;
+}
+
+/* 按钮样式 */
+.tc-tiddler-controls button {
+    background-color: rgba(210, 180, 140, 0.5);
+    border: 1px solid #c9b18b;
+    color: #5a3d2b;
+    fill: #eb7f7f
+/*  //#f5e7c1 #5a3d2b */
+    border-radius: 2px;
+    padding: 2px 6px;
+    font-size: 0.8em;
+}
+
+.tc-tiddler-controls button:hover {
+    background-color: rgba(210, 180, 140, 0.7);
+    color: #3a2518;
+}
+
+.tc-tiddler-frame:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 添加老旧纸张的边角效果 */
+.tc-tiddler-frame::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 45%, rgba(255,255,255,0.8) 50%, rgba(255,255,255,0) 55%);
+    background-size: 300% 300%;
+    pointer-events: none;
+    opacity: 0.1;
+    z-index: 1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+/* 代码块样式保持可读性 */
+.tc-tiddler-body pre, .tc-tiddler-body code {
+    background-color: rgba(255, 248, 220, 0.7); /* 玉米丝色背景 */
+    border: 1px solid #d2b48c;
+    color: #333;
+}
+
+/* 引用样式 */
+.tc-tiddler-body blockquote {
+    border-left: 3px solid #d2b48c;
+    background-color: rgba(210, 180, 140, 0.1);
+    color: #4a3526;
+    font-style: italic;
+    padding: 5px 15px;
+    margin: 10px 0;
+}
+
+.tc-tiddler-controls button svg, .tc-tiddler-controls button img, .tc-search button svg, .tc-search a svg {
+    fill: #935b5b
+}
+.tc-subtitle {
+    color: #887777
+}
+
+.tc-system-title-prefix {
+    color: #887777
+}
+
+.tc-tiddler-title-icon svg {
+    fill: #935b5b
+}
+.tc-image-loaded {
+	border-radius: 1%;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+.tc-image {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);    
+}
+
+/* 图片悬停放大效果  */
+
+.tc-image:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+/* 卡片悬停放大效果 
+
+.tc-tiddler-frame:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+*/

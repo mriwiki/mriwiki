@@ -1,0 +1,10 @@
+created: 20250511235531799
+modified: 20250511235541495
+tags: 
+title: $:/ui/ViewTemplate/title/displayCaption
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<h2 class="tc-title">
+{{!!caption}}
+</h2>

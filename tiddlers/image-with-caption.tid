@@ -1,0 +1,17 @@
+created: 20250515001812437
+modified: 20250515003727729
+tags: template
+title: image-with-caption
+tmap.id: 0c5eaf8e-d102-4d7e-aa39-ee0284bf1bbe
+type: text/vnd.tiddlywiki
+
+<div class="image-with-caption">
+  [img[brain-sectional-anatomy-annotation.jpeg]]
+  <div class="caption"><a href="https://theneuroradiologist.org/2022/12/28/brain-anatomy-tutorial-part-1-how-to-find-the-central-sulcus-on-imaging/" target="_blank">The Neuroradiologist: 如何找到中央沟</a></div>
+</div>
+<style>
+	.caption {
+	text-align: center;
+	color: gray;
+	}
+</style>

@@ -1,0 +1,19 @@
+created: 20250511224248124
+modified: 20250514073338336
+title: 结构化写作
+tmap.edges: {"f1e93a8c-8aa7-44e5-bbaa-3428db4cd1bf":{"to":"d32d0a7a-f5aa-4017-a125-75183e747e32","type":"tmap:unknown"}}
+tmap.id: 50e006ac-508b-47e2-a673-85286c5a2b74
+type: text/vnd.tiddlywiki
+
+!! 什么是结构化写作？
+! H1
+!! H2
+!!! H3
+* bullet 01
+* bullet 02
+* bullet 03
+
+利用不同的层级标题和 bullets、有序列表，结构化写作可以流畅、清晰地完成技术文档的写作，非常适合产品经理的文档写作
+
+!! 参考阅读
+* [[《金字塔原理》芭芭拉·明托——MECE原则|the-minto-pyramid-principle]]

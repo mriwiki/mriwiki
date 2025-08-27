@@ -1,0 +1,23 @@
+created: 20250514110018900
+creator: Neonity
+modified: 20250607005828265
+modifier: Neonity
+tags: project
+title: MECE原则
+tmap.id: 2940f02f-f659-4077-aa97-571ca4d1370b
+type: text/vnd.tiddlywiki
+
+{{MECE-principles}}
+
+ME：''M''utually ''E''xclusive 彼此独立
+
+CE：''C''ollectively ''E''xhaustive 完全穷尽
+
+
+<<<
+!! "彼此独立，完全穷尽"
+<<<
+
+!! [[MECE-Mefo]]
+
+{{MECE-Mefo}}

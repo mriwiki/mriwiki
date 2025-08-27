@@ -1,0 +1,19 @@
+[
+    {
+        "created": "20250507095823940",
+        "text": "!! Todos\n\n<<todolist-ui caption:\"\" width:\"\" base:\"\">>\n\n!! Tutorial: [[样式美化篇|DIY-TW-Style]]\n\n!!! 字体资源\n* [[字体家|https://www.zitijia.com/]]\n\n!! Tutorial: [[如何使用TW做一个阅读清单|how-to-make-a-readinglist-with-tw]]\n\n!! 参考资料\n\n* [[TiddlyWiki 官方网站|https://tiddlywiki.com]]\n* [[TiddlyWiki 官方网站中文版|https://bramchen.github.io/tw5-docs/zh-Hans/]]\n* [[太微中文网|https://tw-cn.netlify.app/]]\n* [[Tiddlywiki XP|https://keatonlao.github.io/tiddlywiki-xp/]]\n* [[Pimgeek的数字花园|https://pimgeek.com/notes/]]\n* [[陈仓颉：如何在服务器上部署一个基于 Node.js 的 TiddlyWiki|https://jefftay.com/blog-posts/how-to-host-a-nodejs-version-tiddlywiki]]\n* [[CPL插件|https://tw-cpl.netlify.app/]]",
+        "title": "build-a-TiddlyWiki-from-start",
+        "modified": "20250514121905013",
+        "tags": "Tutorial TableOfContents",
+        "type": "text/vnd.tiddlywiki",
+        "tmap.edges": "{\"8832e0ce-50e1-44a2-8f0e-272d36c7040e\":{\"to\":\"fe99a90e-46a7-4d05-967e-cffb17b4a58b\",\"type\":\"tmap:unknown\"},\"c65923c1-0a02-4137-9082-093ebbee6bc5\":{\"to\":\"c1629722-bcc1-44d7-a216-de14050ddbb7\",\"type\":\"tmap:unknown\"},\"27a80aae-7f6d-44a6-bf08-2480b66ba483\":{\"to\":\"18690c6f-dba2-473b-9f28-46147999b991\",\"type\":\"tmap:unknown\"},\"01cc769d-aedc-440c-a7c4-d54c2182781a\":{\"to\":\"2c878d2b-07f7-4bf6-9b1c-9a237a23d204\",\"type\":\"tmap:unknown\"}}",
+        "tmap.id": "359efe3a-1d1a-4072-8e47-d17270c57b6a",
+        "page-cover": "https://unsplash.com/photos/T1OBtJN9Ztk/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjM4NTQzNTgz&force=true&w=1920",
+        "icon": "$:/core/icon",
+        "page-cover#bg-blur": "8px",
+        "page-cover#size": "cover",
+        "page-cover#position": "center",
+        "page-cover#repeat": "no-repeat",
+        "caption": "从0开始打造自己的TiddlyWiki"
+    }
+]

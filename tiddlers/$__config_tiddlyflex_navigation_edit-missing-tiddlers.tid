@@ -1,0 +1,9 @@
+caption: Edit missing tiddlers
+created: 20250730001512265
+description: Whether or not clicking a Link to a missing Tiddler should automatically open it for Editing
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/tiddlyflex/navigation/edit-missing-tiddlers
+type: text/vnd.tiddlywiki
+
+no

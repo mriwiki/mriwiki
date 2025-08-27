@@ -1,0 +1,9 @@
+caption: Story-River Padding
+created: 20250730001512265
+description: The Padding of the Story Rivers
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/story-river/padding
+type: text/vnd.tiddlywiki
+
+42px

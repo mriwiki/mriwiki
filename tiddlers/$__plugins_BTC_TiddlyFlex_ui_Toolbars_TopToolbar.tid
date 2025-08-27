@@ -1,0 +1,23 @@
+caption: Top ~TiddlyFlex Toolbar
+description: The standard Top ~TiddlyFlex Toolbar
+modified: 20250730004209168
+tags: $:/tags/TopToolbar
+title: $:/plugins/BTC/TiddlyFlex/ui/Toolbars/TopToolbar
+type: text/vnd.tiddlywiki
+
+\whitespace trim
+<div class="tc-tiddlyflex-top-toolbar">
+	<div class="tc-tiddlyflex-top-toolbar-left">
+		<$list filter="[all[shadows+tiddlers]tag[$:/tags/TopLeftBar]!is[draft]] :filter[lookup[$:/config/TiddlyFlex/Toolbars/TopLeftToolbarItems/Visibility/]!match[hide]]" variable="listItem" storyview="tiddlypop">
+			<$transclude tiddler=<<listItem>>/>
+		</$list>
+	</div>
+	<div class="tc-tiddlyflex-top-toolbar-center">
+
+	</div>
+	<div class="tc-tiddlyflex-top-toolbar-right">
+		<$list filter="[all[shadows+tiddlers]tag[$:/tags/TopRightBar]!is[draft]] :filter[lookup[$:/config/TiddlyFlex/Toolbars/TopRightToolbarItems/Visibility/]!match[hide]]" variable="listItem" storyview="tiddlypop">
+			<$transclude tiddler=<<listItem>>/>
+		</$list>
+	</div>
+</div>

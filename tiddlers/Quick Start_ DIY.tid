@@ -1,0 +1,14 @@
+background: linear-gradient(90deg,#fff4f2, #ffffff)
+button-color: #ff4522
+button-text: Explore
+caption: DIY
+created: 20250515055133657
+icon: $:/core/images/theme-button
+link: GettingStarted-with-tw
+modified: 20250515055143058
+tags: [[Getting Started]]
+title: Quick Start: DIY
+tmap.id: 59434a5f-57b0-4940-911a-a2421aafb014
+type: text/vnd.tiddlywiki
+
+Find the configuration that is right for you to get the full benefits of ~TiddlyWiki

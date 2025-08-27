@@ -1,0 +1,81 @@
+ISBN: 9781119391999
+author: [[Catherine Westbrook]]
+book-notes-content: MRI实践
+book-summary: MRI实践
+caption: 磁共振实践
+created: 20250517081739623
+icon: ⚛️
+modified: 20250517083636481
+page-cover: MRI_in_Practice_cover.webp
+pages: 395
+press: WILEY Blackwell
+published-time: 2019
+stars: 4.5
+tags: BookNote TableOfContents MRI
+title: MRI-in-Practice
+tmap.id: cc6c0c66-454f-43f1-ab99-36a1916032cd
+type: text/vnd.tiddlywiki
+
+<div class="book-container">
+  <div class="book-cover">
+    [img width=150 class="book-cover-image" alt="书籍封面" [MRI_in_Practice_cover.webp]]
+  </div>
+  <div class="book-details">
+    <h2><<title>></h2>
+    <p>作者：{{!!author}}</p>
+    <p>出版社：{{!!press}}</p>
+    <p>出版日期：{{!!published-time}}</p>
+    <p>ISBN：{{!!ISBN}}</p>
+    <p>页数：{{!!pages}}</p>
+    <p>评分：{{!!stars}}</p>
+  </div>
+</div>
+
+<div class="book-description">
+  <h3>内容简介</h3>
+  <div class="book-summary">{{!!book-summary}}</div>
+</div>
+
+<div class="book-notes">
+  <h3>读书笔记</h3>
+  <div class="book-notes-content">{{!!book-notes-content}}</div>
+</div>
+
+<style>
+.book-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-cover-image {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-description, .book-notes {
+  margin-top: 20px;
+}
+
+.book-summary, .book-notes-content {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+</style>

@@ -1,0 +1,84 @@
+ISBN: 9787544294829
+author: [[芭芭拉·明托]]
+book-notes-content: [[MECE原则]]的应用
+book-summary: [[MECE原则]]
+caption: 金子塔原理
+created: 20250514053926084
+creator: Neonity
+icon: 🔺
+modified: 20250607005818869
+modifier: Neonity
+page-cover: minto-pyramid-principle-slide1.png
+pages: 333
+press: 南海出版社
+published-time: 2019-4
+stars: 4.5
+tags: BookNote MECE TableOfContents 金字塔原理
+title: the-minto-pyramid-principle
+tmap.edges: {"e3af6d4d-24ff-4436-ae2d-c8c94aa19416":{"to":"2940f02f-f659-4077-aa97-571ca4d1370b","type":"tmap:unknown"}}
+tmap.id: d32d0a7a-f5aa-4017-a125-75183e747e32
+type: text/vnd.tiddlywiki
+
+<div class="book-container">
+  <div class="book-cover">
+    [img width=150 class="book-cover-image" alt="书籍封面" [金字塔原理.png]]
+  </div>
+  <div class="book-details">
+    <h2><<title>></h2>
+    <p>作者：{{!!author}}</p>
+    <p>出版社：{{!!press}}</p>
+    <p>出版日期：{{!!published-time}}</p>
+    <p>ISBN：{{!!ISBN}}</p>
+    <p>页数：{{!!pages}}</p>
+    <p>评分：{{!!stars}}</p>
+  </div>
+</div>
+
+<div class="book-description">
+  <h3>内容简介</h3>
+  <div class="book-summary">{{!!book-summary}}</div>
+</div>
+
+<div class="book-notes">
+  <h3>读书笔记</h3>
+  <div class="book-notes-content">{{!!book-notes-content}}</div>
+</div>
+
+<style>
+.book-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.book-cover {
+  margin-right: 20px;
+}
+
+.book-cover-image {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-description, .book-notes {
+  margin-top: 20px;
+}
+
+.book-summary, .book-notes-content {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+</style>

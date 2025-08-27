@@ -1,0 +1,9 @@
+caption: Menu Breakpoint when Sidebar is shown
+created: 20250730001512265
+description: The Menu Breakpoint in columns (when the Sidebar is shown)
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/story-river/tiddler/controls-breakpoint-sidebar
+type: text/vnd.tiddlywiki
+
+3

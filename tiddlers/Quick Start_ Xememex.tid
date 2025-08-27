@@ -1,0 +1,12 @@
+background: linear-gradient(90deg,#fff1fe, #ffffff)
+button-color: #bf5fb6
+button-text: Find out more
+caption: Xememex
+icon: $:/core/images/star-filled
+link: Xememex
+tags: [[Getting Started]]
+title: Quick Start: Xememex
+tmap.id: f2689cba-1706-48cd-9ba1-9b7c7e2d3a9e
+type: text/vnd.tiddlywiki
+
+For companies and teams, a multiuser ~TiddlyWiki from Intertwingled Innovations

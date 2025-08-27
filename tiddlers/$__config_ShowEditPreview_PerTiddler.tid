@@ -1,0 +1,9 @@
+caption: Show Edit-Preview Per-Tiddler
+created: 20250730001512265
+description: Whether or not the Edit-Preview should be shown for the current Tiddler only
+modified: 20250730004209166
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input-switch
+title: $:/config/ShowEditPreview/PerTiddler
+type: text/vnd.tiddlywiki
+
+yes

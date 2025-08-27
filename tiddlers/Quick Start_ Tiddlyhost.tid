@@ -1,0 +1,12 @@
+background: linear-gradient(90deg,#f5f5ff, #ffffff)
+button-color: #00009a
+button-text: Create Account
+caption: Tiddlyhost
+icon: $:/core/images/globe
+link: Tiddlyhost
+tags: [[Getting Started]]
+title: Quick Start: Tiddlyhost
+tmap.id: 6df2b0a4-e876-47e1-a1f2-3b55aac7e353
+type: text/vnd.tiddlywiki
+
+The easiest way to get started with an online ~TiddlyWiki

@@ -1,0 +1,9 @@
+caption: Tiddler Margin-Bottom
+created: 20250730001512265
+description: The Bottom Margin for Tiddlers in the Story Rivers
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/story-river/tiddler/margin-bottom
+type: text/vnd.tiddlywiki
+
+28px

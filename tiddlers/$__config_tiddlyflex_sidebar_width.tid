@@ -1,0 +1,9 @@
+caption: Sidebar width
+created: 20250730001512265
+description: The Width of the Sidebar in % or px
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/sidebar/width
+type: text/vnd.tiddlywiki
+
+25%

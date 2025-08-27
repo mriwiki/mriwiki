@@ -1,0 +1,9 @@
+caption: Drag&Drop animation duration
+created: 20250730001512265
+description: The Duration in Milliseconds for the Drag&Drop Animations
+modified: 20250730004209167
+settings-template: $:/plugins/BTC/TiddlyFlex/ui/ControlPanel/Templates/input
+title: $:/config/tiddlyflex/dragndrop/AnimationDuration
+type: text/vnd.tiddlywiki
+
+175
